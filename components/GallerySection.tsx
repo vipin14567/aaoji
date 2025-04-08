@@ -28,7 +28,7 @@ export default function GallerySection() {
         Taste the Story: A Visual Journey Through Our Dishes!
       </h2>
 
-      {/* Gallery Grid */}
+   
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {galleryImages.map(({ src, alt }, idx) => (
           <div
@@ -49,7 +49,7 @@ export default function GallerySection() {
         ))}
       </div>
 
-      {/* Button + Symbol */}
+
       <div className="mt-10">
         <a
           href="https://instagram.com"

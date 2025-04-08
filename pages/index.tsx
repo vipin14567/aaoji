@@ -1,6 +1,4 @@
-// import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-// import Footer from '../components/Footer';
 
 import Outlets from '@/components/Outlets';
 import AaojiAbout from '@/components/AaojiAbout';

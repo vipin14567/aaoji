@@ -11,7 +11,7 @@ const images = [
 export default function AaojiAbout() {
   return (
     <section className="bg-[#fef7e5] py-16 px-6 md:px-20 flex flex-col md:flex-row items-center gap-12">
-      {/* Left - Image Grid */}
+     
       <div className="grid grid-cols-2 gap-4 max-w-[500px] w-full">
         {images.map((img, i) => (
           <div key={i} className={`${img.style} overflow-hidden`}>
@@ -30,7 +30,7 @@ export default function AaojiAbout() {
         ))}
       </div>
 
-      {/* Right - Text Content */}
+      {/* Right */}
       <div className="max-w-xl text-center md:text-left">
         <h4 className="uppercase text-red-600 font-bold text-md border-b-2 inline-block border-red-600 mb-2">
           The Story
@@ -58,7 +58,6 @@ export default function AaojiAbout() {
           </Link>
         </div>
 
-        {/* Decorative Line */}
         <div className="mt-4 text-red-600 text-xl">𓂀</div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const menuImages = ["/menu-1.png", "/menu-2.png"]; // Add more as needed
+const menuImages = ["/menu-1.png", "/menu-2.png"];
 
 export default function MenuSection() {
   const [index, setIndex] = useState(0);
@@ -19,7 +19,7 @@ export default function MenuSection() {
       className="bg-[#fdf4dc] px-6 py-16 text-center"
       aria-labelledby="menu-heading"
     >
-      {/* Headings */}
+   
       <h4 className="text-red-700 font-medium uppercase border-b-2 border-red-700 inline-block mb-2">
         Explore Our Menu
       </h4>
@@ -30,7 +30,7 @@ export default function MenuSection() {
         EXPLORE THE MAGIC OF OUR <i>/SAVORY CREATIONS/</i>
       </h2>
 
-      {/* Carousel */}
+   
       <div className="relative max-w-4xl mx-auto">
         {/* Left Arrow */}
         <button
@@ -64,7 +64,7 @@ export default function MenuSection() {
         </button>
       </div>
 
-      {/* Dots */}
+
       <div className="flex justify-center mt-4 gap-2">
         {menuImages.map((_, i) => (
           <button
@@ -78,7 +78,6 @@ export default function MenuSection() {
         ))}
       </div>
 
-      {/* Download Link */}
       <a
         href="/menu-download.pdf"
         download

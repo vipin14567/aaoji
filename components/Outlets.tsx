@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
@@ -24,7 +22,7 @@ export default function Outlets() {
 
   return (
     <section className="bg-[#d4bb6a] min-h-screen flex flex-col items-center py-12 px-4 sm:px-6">
-      {/* Heading */}
+   
       <div className="text-center mb-10 max-w-xl">
         <h2 className="text-red-700 uppercase tracking-wide text-sm sm:text-base font-bold border-b-2 border-red-700 inline-block mb-2">
           Outlets
@@ -36,7 +34,6 @@ export default function Outlets() {
         </p>
       </div>
 
-      {/* Carousel */}
       <div className="relative w-full max-w-md">
         <button
           onClick={prev}
@@ -46,7 +43,6 @@ export default function Outlets() {
           <ChevronLeft size={24} />
         </button>
 
-        {/* Outlet Card */}
         <div className="bg-white rounded-xl overflow-hidden w-full h-[340px] shadow-lg mx-auto">
           <div className="relative h-4/5 w-full">
             <Image
@@ -72,7 +68,6 @@ export default function Outlets() {
         </button>
       </div>
 
-      {/* Indicators */}
       <div className="mt-6 flex gap-2">
         {outlets.map((_, i) => (
           <div

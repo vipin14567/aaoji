@@ -7,9 +7,9 @@ export default function HeroSection() {
       className="bg-[#d4bb6a] px-6 py-10 md:py-20 md:px-24 flex flex-col md:flex-row justify-between items-center gap-10"
       aria-labelledby="hero-heading"
     >
-      {/* Left Content */}
+   
       <div className="max-w-xl text-center md:text-left">
-        {/* Logo */}
+
         <div className="flex justify-center md:justify-start">
           <Image
             src="/logo.png"
@@ -41,7 +41,7 @@ export default function HeroSection() {
             needed!
           </p>
 
-          {/* Buttons */}
+          
           <div className="flex flex-wrap justify-center md:justify-start gap-4 items-center">
             <a
               href="tel:+919999999999"
@@ -57,12 +57,12 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          {/* Decorative Symbol */}
+
           <div className="mt-4 text-red-700 text-xl">𓂀</div>
         </div>
       </div>
 
-      {/* Right Content */}
+      {/* Right*/}
       <div className="relative w-[320px] md:w-[400px] aspect-[4/5] bg-white rounded-t-[9999px] overflow-hidden border-[12px] border-[#540000] shadow-lg">
         <Image
           src="/food-plate.jpg"

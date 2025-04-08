@@ -29,7 +29,7 @@ export default function TestimonialContactSection() {
 
   return (
     <section className="bg-[#fdf4dc] px-6 py-16 text-center">
-      {/* Section Header */}
+     
       <header>
         <h4 className="text-red-700 font-medium uppercase border-b-2 border-red-700 inline-block mb-2">
           Testimonials
@@ -39,7 +39,7 @@ export default function TestimonialContactSection() {
         </h2>
       </header>
 
-      {/* Testimonials Carousel */}
+   
       <div className="relative max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 transition-all">
           <button
@@ -65,7 +65,6 @@ export default function TestimonialContactSection() {
           </button>
         </div>
 
-        {/* Dots */}
         <div className="flex justify-center mt-4 gap-2">
           {testimonials.map((_, i) => (
             <button
@@ -80,14 +79,14 @@ export default function TestimonialContactSection() {
         </div>
       </div>
 
-      {/* Contact Section */}
+    
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 max-w-6xl mx-auto text-left">
-        {/* Map Placeholder */}
+       
         <div className="border border-red-500 rounded-lg min-h-[300px] flex items-center justify-center text-red-700 font-bold text-lg">
           MAP HERE
         </div>
 
-        {/* Contact Form */}
+      
         <form
           onSubmit={(e) => {
             e.preventDefault();
